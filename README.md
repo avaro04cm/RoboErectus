@@ -30,7 +30,7 @@ To maximize the performance of your PC and use the potential of the GPU, you sho
 ### 3. Enable Video Output
 To see what the robot is doing in the simulator, you must have video output enabled on your PC. For that, there are multiple options:
 
-- Linux: In this case, you should enable the X11 window. Type in your bash terminal `export xhost +local:docker` or add this to your *.bashrc* to enable it in all windows, `"xhost +local:docker" > ~/.bashrc` and then execute `source ~/.bashrc`.
+- Linux: In this case, you should enable the X11 window. Type in your bash terminal `export xhost +local:docker` or add this to your *.bashrc* to enable it in all windows, `echo "xhost +local:docker" >> ~/.bashrc` and then execute `source ~/.bashrc`.
 
 - Windows: `TODO: Complete`
 
